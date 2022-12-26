@@ -49,8 +49,13 @@ header{
 
 span{
     color: var(--main-color);
+    font-weight: 900;
 }
 
+.home h6 span{
+    font-weight: 800;
+    font-size: 2rem;
+}
 .navbar{
     display: flex;
 }
@@ -110,8 +115,8 @@ section{
 
 .home-text h6{
     color: var(--text-color);
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 900;
     margin-bottom: 25px;
 }
 
