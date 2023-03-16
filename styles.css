@@ -11,16 +11,16 @@
     scroll-padding-top: 2rem;
 }
 
+
 :root{
-    --bg-color: #141420;
+    --bg-color: #10101a;
     --main-color: #9c3333;
     --2nd-main-color: #ffffffcc;
     --text-color: #fff;
     --big-font: 5rem;
     --h2-font: 1.9rem;
-    --p-font: 1rem;
+    --p-font: 1.6rem;
 }
-
 
 body{
     background: var(--bg-color);
@@ -49,13 +49,8 @@ header{
 
 span{
     color: var(--main-color);
-    font-weight: 900;
 }
 
-.home h6 span{
-    font-weight: 800;
-    font-size: 2rem;
-}
 .navbar{
     display: flex;
 }
@@ -94,7 +89,7 @@ section{
 }
 
 .home-img img{
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -115,8 +110,8 @@ section{
 
 .home-text h6{
     color: var(--text-color);
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 400;
     margin-bottom: 25px;
 }
 
@@ -143,6 +138,10 @@ section{
     transition: ease all 0.35s;
 }
 
+.cta .btn{
+    background-color: var(--bg-color)
+}
+
 .btn:hover{
     background: var(--text-color);
     color: var(--main-color);
@@ -158,6 +157,9 @@ section{
 
 .about-text{
     text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -216,7 +218,7 @@ img{
 .row{
     background: #0b0b13;
     padding: 60px 35px;
-    border-radius: 25px;
+    border-radius: 5px;
     cursor: pointer;
     transition: all .40s;
 }
@@ -249,7 +251,7 @@ img{
 }
 
 .cta{
-    background: #0b0b13;
+    background: var(--main-color);
     width: 100%;
     padding: 50px 3%;
     text-align: center;
@@ -264,7 +266,7 @@ img{
 }
 
 .cta h2{
-    color: var(--main-color);
+    color: var(--text-color);
     font-size: 4rem;
     font-weight: 300;
     margin-bottom: 40px;
@@ -296,7 +298,7 @@ img{
 .box{
     background: #0b0b13;
     padding: 40px 30px;
-    border-radius: 25px;
+    border-radius: 5px;
     transition: all .40s;
     width: auto;
 }
