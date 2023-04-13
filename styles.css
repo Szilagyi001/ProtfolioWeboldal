@@ -19,7 +19,7 @@
     --text-color: #fff;
     --big-font: 5rem;
     --h2-font: 1.9rem;
-    --p-font: 1.6rem;
+    --p-font: 1.2rem;
 }
 
 body{
@@ -131,6 +131,10 @@ section{
     color: var(--2nd-main-color);
 }
 
+.about-text-wrapper {
+    display: flex;
+}
+
 .btn{
     background: var(--main-color);
     color: var(--text-color);
@@ -184,16 +188,16 @@ section{
     font-size: var(--h2-font);
     line-height: 1.2;
     margin-bottom: 2rem;
-
 }
 
 .about-text p{
     font-size: var(--p-font);
     font-weight: 300;
     margin-bottom: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     color: var(--2nd-main-color);
-    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -445,6 +449,9 @@ form .send-btn:hover{
     section{
         padding: 50px 3%;
     }
+    .about-text-wrapper {
+        display: block;
+    }
 
     :root{
         --big-font: 4rem;
@@ -504,11 +511,15 @@ form .send-btn:hover{
         width: 100%;
     }
 
+    .about-text-wrapper {
+        display: block;
+    }
+
     .home-text p{
         max-width: 100%;
     }
     .home-img img{
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
     }
     .about{
@@ -521,7 +532,8 @@ form .send-btn:hover{
     }
     .about-text p{
         max-width: 100%;
-        margin-bottom: 3px;
+        margin-bottom: 23px;
+        line-height: 20px;
     }
     .education-content{
         display: grid;
