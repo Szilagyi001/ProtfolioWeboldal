@@ -36,9 +36,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--bg-color);
-    padding: 24px 14%;
+    background: var(--main-color);
+    padding: 14px 14%;
     transition: .3s;
+    border-bottom: solid 1px var(--text-color);
+}
+
+header span {
+    color: var(--bg-color);
+    font-weight: 900;
 }
 
 .logo{
@@ -63,7 +69,7 @@ span{
 }
 
 .navbar a:hover{
-    background: var(--main-color);
+    background: var(--bg-color);
     transition: .7s;
     border-radius: 30px;
 }
