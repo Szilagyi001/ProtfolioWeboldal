@@ -64,7 +64,8 @@ span{
 
 .navbar a:hover{
     background: var(--main-color);
-    transition: .3s;
+    transition: .7s;
+    border-radius: 30px;
 }
 
 #menu-icon{
@@ -184,7 +185,7 @@ section{
     font-size: var(--p-font);
     font-weight: 300;
     margin-bottom: 1.5rem;
-    line-height: 1.8rem;
+    line-height: 2.5rem;
     color: var(--2nd-main-color);
     text-align: center;
 }
@@ -387,6 +388,14 @@ form textarea::placeholder{
 textarea{
     resize: none;
     height: 200px;
+}
+
+.home-text span{
+    font-weight: 1000;
+}
+
+.about-text span {
+    color: #fff;
 }
 
 form .send-btn{
