@@ -254,6 +254,10 @@ img{
     color: var(--text-color);
 }
 
+.row h5 {
+    margin-bottom: 8px;
+}
+
 .row p{
     font-size: 18px;
     color: var(--2nd-main-color);
