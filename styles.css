@@ -308,6 +308,7 @@ img{
     border-radius: 5px;
     transition: all .40s;
     width: auto;
+    height: 200px;
 }
 
 .row a{
