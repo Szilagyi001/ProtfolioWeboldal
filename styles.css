@@ -132,7 +132,7 @@ section{
 }
 
 .about-text-wrapper {
-    display: flex;
+    display: block;
 }
 
 .btn{
