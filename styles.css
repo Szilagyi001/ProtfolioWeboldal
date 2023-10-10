@@ -181,6 +181,10 @@ section{
     margin-right: auto;
 }
 
+.about-rows {
+    display: flex;
+}
+
 
 .about-text h2{
     margin-bottom: 0.5rem;
